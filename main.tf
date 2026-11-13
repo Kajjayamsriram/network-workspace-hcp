@@ -7,7 +7,7 @@ terraform {
     }
 }
 variable "ip" {
-  default = ["10.0.0.12", "10.0.0.14", "10.0.0.16"]
+  default = ["10.0.0.12", "10.0.0.14"]
   type = set(string)
   description = "List of ip to be allowed"
 }

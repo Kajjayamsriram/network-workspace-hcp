@@ -11,7 +11,7 @@ variable "ip" {
   type = set(string)
   description = "List of ip to be allowed"
 }
-
+#trigger
 output "ip_list" {
   value = var.ip
 }
